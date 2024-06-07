@@ -1,5 +1,30 @@
-ubuntu-sway-live
-ntfs-3g
-fwupdate
-shim-signed
-shim
+# boot iso
+casper
+
+# edit partitions
+gparted
+
+## restore machine backups
+#timeshift
+
+# ecrypt/decrypt devices
+cryptsetup
+
+# dev & fs
+btrfs-progs
+dmraid
+e2fsprogs
+jfsutils
+lvm2
+mdadm
+reiserfsprogs
+reiser4progs
+xfsprogs
+
+## hw discover
+#discover
+
+## boot images
+#grub-pc
+#mokutil
+#os-prober
