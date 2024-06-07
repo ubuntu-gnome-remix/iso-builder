@@ -11,7 +11,7 @@ The following example uses Docker and assumes you have Docker correctly installe
 Clone this project & cd into it:
 
 ```shell
-git clone https://github.com/dmitriysafronov/iso-builder && cd iso-builder
+git clone https://github.com/ubuntu-gnome-remix/iso-builder && cd iso-builder
 ```
 
 Configure the channel in the etc/terraform.conf (unstable, stable).
