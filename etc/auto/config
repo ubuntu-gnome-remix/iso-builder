@@ -59,4 +59,4 @@ sed -i "s/@DISTRO_NAME/$NAME/" config/includes.binary/.disk/info
 sed -i "s/@VERSION/$VERSION/" config/includes.binary/.disk/info
 sed -i "s/@DATE/$DATE/" config/includes.binary/.disk/info
 
-sed -i "s/@XORG_HWE/$XORG_HWE/" config/package-lists/desktop.list.chroot_install
+sed -i "s/@XORG_HWE/$XORG_HWE/" config/package-lists.calamares/desktop.list.chroot_install
