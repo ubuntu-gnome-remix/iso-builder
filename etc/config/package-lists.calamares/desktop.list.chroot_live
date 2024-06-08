@@ -1,30 +1,38 @@
-# boot iso
+###*** boot iso
+
+## casper
 casper
 
-# edit partitions
+########################
+########################
+
+###*** edit partitions
+
+## gparted
 gparted
 
-## restore machine backups
-#timeshift
+########################
 
-# ecrypt/decrypt devices
-cryptsetup
+###*** dev & fs
 
-# dev & fs
-btrfs-progs
-dmraid
-e2fsprogs
+## hfsprogs: none
+hfsprogs
+## hfsutils: none
+hfsutils
+## jfsutils: *gparted
 jfsutils
-lvm2
-mdadm
-reiserfsprogs
+## nilfs-tools: *udisks2
+nilfs-tools
+## reiser4progs: *gparted
 reiser4progs
+## reiserfsprogs: *gparted,*udisks2
+reiserfsprogs
+## xfsprogs: *udisks2,*gparted
 xfsprogs
 
-## hw discover
-#discover
+########################
 
-## boot images
-#grub-pc
-#mokutil
-#os-prober
+###*** raid
+
+## dmraid: *gparted
+dmraid
