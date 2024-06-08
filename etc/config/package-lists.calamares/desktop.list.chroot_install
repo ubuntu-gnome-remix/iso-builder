@@ -35,8 +35,10 @@ f2fs-tools
 ## util-linux: +os-prober,=casper,*reiserfsprogs
 #util-linux
 
-# raid
-mdadm (*udisks2,*libblockdev-mdraid3)
+###*** raid
+
+## mdadm: *udisks2,*libblockdev-mdraid3
+mdadm
 
 ########################
 
