@@ -15,6 +15,10 @@ CONFIG_DIR="$BASE_DIR/etc"
 
 test -s "$CONFIG_DIR"/"terraform.conf" && source "$CONFIG_DIR"/"terraform.conf" || ( echo "E: No config file [terraform.conf]" > /dev/stderr &&  exit 1 )
 
+source "$CONFIG_DIR"/"terraform.conf"
+
+ln -sfn /usr/share/debootstrap/scripts/gutsy /usr/share/debootstrap/scripts/"$BASECODENAME"
+
 build () {
   BUILD_ARCH="$1"
 

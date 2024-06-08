@@ -31,8 +31,7 @@ FROM live-build AS ubuntu-live-build
 COPY debs/ /debs/
 
 RUN dpkg -i /debs/*.deb \
-  && rm -rf /debs/ \
-  && ln -sfn /usr/share/debootstrap/scripts/gutsy /usr/share/debootstrap/scripts/noble
+  && rm -rf /debs/
 
 COPY entrypoint.sh /entrypoint.sh
 
