@@ -3,6 +3,7 @@
 .env.builder
 #
 /etc
+.dockerignore
 .gitignore
 docker-compose.yml
 Dockerfile
