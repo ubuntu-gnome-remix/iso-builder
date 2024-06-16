@@ -6,7 +6,7 @@ services:
       - path: .env.builder
         required: false
     privileged: true
-    pull_policy: never
+    image: ghcr.io/ubuntu-gnome-remix/iso-builder:latest
     volumes:
       - ./:/workspace/
     working_dir: /workspace
