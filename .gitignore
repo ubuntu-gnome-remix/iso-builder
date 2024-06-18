@@ -1,3 +1,12 @@
-/tmp
-/builds
-.env.builder
+# Exclude all...
+/**
+# ...except essential
+!/.github
+!/.github/**
+!/debs
+!/debs/**
+!.dockerignore
+!.gitignore
+!example.docker-compose.yml
+!LICENSE
+!README.md

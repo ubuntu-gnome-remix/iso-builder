@@ -1,11 +1,5 @@
-/tmp
-/builds
-.env.builder
-#
-/etc
-.dockerignore
-.gitignore
-docker-compose.yml
-Dockerfile
-LICENSE
-README.md
+# Exclude all...
+/**
+# ...except essential
+!/debs
+!/debs/**
