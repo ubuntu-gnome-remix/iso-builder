@@ -1,4 +1,4 @@
-FROM ghcr.io/ubuntu-gnome-remix/live-build:1.0.2 AS base
+FROM ghcr.io/ubuntu-gnome-remix/live-build:1.0.3 AS base
 
 RUN apt-get update -yq \
   && apt-get install -yq \
